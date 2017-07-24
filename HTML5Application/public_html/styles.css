@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 22, 2017, 12:59:24 PM
+    Author     : jeffroth
+*/
+body {
+    background-color: white;
+    font-family: ubuntu; color: grey;
+}
+h1 {
+    font-size: 300%;
+    color: blue;
+}
+h2 {
+    color: blue;
+}
+/*p {
+    font-family: ubuntu ; color: powderblue;
+    border: 1px solid powderblue;
+    padding: 30px;*/
+}
+#p01 {
+    color: blue;
+
+}
+p.error{
+    color: red;
+}
+blockquote {
+    color: grey;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table#t01 {
+    width: 75%; 
+    background-color: #f1f1c1;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+div.cities {
+    background-color: grey;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
