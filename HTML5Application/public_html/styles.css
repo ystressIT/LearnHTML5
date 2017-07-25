@@ -7,6 +7,9 @@ and open the template in the editor.
     Created on : Jul 22, 2017, 12:59:24 PM
     Author     : jeffroth
 */
+head{
+    
+}
 body {
     background-color: white;
     font-family: ubuntu; color: grey;
@@ -80,4 +83,32 @@ div.cities {
     color: white;
     margin: 20px 0 20px 0;
     padding: 20px;
+}
+
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
 }
